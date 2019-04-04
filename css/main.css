@@ -1,3 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
 .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -73,17 +91,94 @@
   color: #000000;
 }
 
-* {
-  padding: 0;
-  margin: 0;
+.main {
+  min-height: 810px;
+  background-image: url(../img/monitor.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-a {
-  text-decoration: none;
+.main-video {
+  margin-left: 27.5px;
+  margin-top: 58px;
 }
 
-.container {
-  width: 900px;
-  margin: 0 auto;
+.main-form {
+  margin-top: 28px;
+  min-height: 425px;
+  max-width: 280px;
+  background-color: #f9dd0a;
+  border-radius: 15px;
+}
+
+.main-form__wrap {
+  padding: 0 22px;
+}
+
+.main-form__headline {
+  margin-top: 26px;
+  font-family: 'MyriadPro-Bold', sans-serif;
+  font-size: 30px;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+.main-form__text {
+  max-width: 240px;
+  font-family: 'MyriadPro-Regular', sans-serif;
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.main-form__input {
+  min-width: 208px;
+  border: 1px solid #cbcbcb;
+  border-radius: 10px;
+  padding: 13px;
+}
+
+.main-form__name {
+  margin-top: 44px;
+}
+
+.main-form__tel {
+  margin-top: 26px;
+}
+
+.main-form__button {
+  background-color: #000000;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 7px 59px;
+  text-transform: uppercase;
+  font-family: 'MyriadPro-Bold', sans-serif;
+  font-size: 24px;
+  margin-top: 28px;
+  -webkit-box-shadow: 3px 8px 5px rgba(0, 0, 0, 0.35);
+          box-shadow: 3px 8px 5px rgba(0, 0, 0, 0.35);
+}
+
+.main-form__button:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+}
+
+.main-about {
+  margin-top: 160px;
+}
+
+.main-about__headline h1 {
+  font-size: 36px;
+  font-family: 'MyriadPro-Regular', sans-serif;
+  text-align: center;
+}
+
+.main-about__text {
+  margin-top: 20px;
+  font-family: 'MyriadPro-Regular', sans-serif;
+  font-size: 17px;
 }
 /*# sourceMappingURL=main.css.map */
