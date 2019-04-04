@@ -1,0 +1,89 @@
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header {
+  background: #f9dd0a;
+}
+
+.header-icon {
+  margin-top: 10px;
+  padding-bottom: 7px;
+}
+
+.header-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.header-navigation__phone {
+  font-family: 'MyriadPro-Regular', sans-serif;
+  font-size: 17px;
+  background-image: url(../img/bk-phone.png);
+  max-width: 200px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 49px;
+  line-height: 17px;
+  border-radius: 5px;
+}
+
+.header-navigation__phone a {
+  color: #f9dd0a;
+}
+
+.header-navigation__bar {
+  margin-top: 8px;
+  margin-right: -55px;
+}
+
+.header-navigation__bar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-navigation__bar li {
+  list-style-type: none;
+  margin-right: 20px;
+  font-family: 'MyriadPro-Regular', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.header-navigation__bar li:hover {
+  -webkit-transform: rotateZ(10deg);
+          transform: rotateZ(10deg);
+}
+
+.header-navigation__bar a {
+  color: #000000;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=main.css.map */
