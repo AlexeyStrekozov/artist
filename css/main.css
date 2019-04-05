@@ -16,6 +16,14 @@ input {
   margin: 0 auto;
 }
 
+.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -60,6 +68,7 @@ input {
 }
 
 .header-navigation__phone a {
+  margin-left: -1px;
   color: #f9dd0a;
 }
 
@@ -264,5 +273,51 @@ input {
   text-align: center;
   padding-top: 10px;
   font-family: 'Cuprum', arial;
+}
+
+.portfolio {
+  padding-bottom: 74px;
+}
+
+.portfolio-headline {
+  text-align: center;
+  font-family: 'Cuprum', arial;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 33px;
+  line-height: 31px;
+}
+
+.portfolio-block {
+  max-width: 202px;
+  margin-top: 23px;
+  margin-bottom: 7px;
+  margin-left: 30px;
+}
+
+.portfolio-block:first-child {
+  margin-top: 23px;
+  margin-left: 0;
+}
+
+.awards {
+  background-color: #f9dd0a;
+  padding-bottom: 37px;
+}
+
+.awards-headline {
+  text-align: center;
+  padding-top: 34px;
+  font-size: 22px;
+  font-family: 'Cuprum', arial;
+}
+
+.awards-block {
+  margin-top: 26px;
+  width: 280px;
+}
+
+.awards-block__text {
+  margin-top: 24px;
 }
 /*# sourceMappingURL=main.css.map */
