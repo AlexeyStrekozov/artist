@@ -180,5 +180,44 @@ input {
   margin-top: 20px;
   font-family: 'MyriadPro-Regular', sans-serif;
   font-size: 17px;
+  text-align: justify;
+}
+
+.advantages {
+  background-color: #f9dd0a;
+  padding-bottom: 32px;
+}
+
+.advantages-headline {
+  padding-top: 23px;
+  text-align: center;
+  font-size: 35px;
+  line-height: 35px;
+  font-family: 'Cuprum', arial;
+  font-weight: bold;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+.advantages-block {
+  max-width: 159px;
+}
+
+.advantages-block__img {
+  text-align: center;
+}
+
+.advantages-block__text {
+  text-align: center;
+  font-family: 'Cuprum', arial;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 12px;
+}
+
+.quality {
+  width: 189px;
+  margin-left: -10px;
 }
 /*# sourceMappingURL=main.css.map */
