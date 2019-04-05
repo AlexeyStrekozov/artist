@@ -220,4 +220,49 @@ input {
   width: 189px;
   margin-left: -10px;
 }
+
+.statistics {
+  background-image: url(../img/bk3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 12px;
+}
+
+.statistics-headline {
+  padding-top: 30px;
+  width: 345px;
+  margin: 0 auto;
+}
+
+.statistics-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.statistics-block {
+  padding: 18px 0;
+}
+
+.statistics-block:first-child {
+  margin-left: 15px;
+}
+
+.statistics-block:last-child {
+  margin-left: 82px;
+}
+
+.statistics-block:nth-child(2n) {
+  margin-left: 84px;
+}
+
+.statistics-block__text {
+  color: #ffffff;
+  text-align: center;
+  padding-top: 10px;
+  font-family: 'Cuprum', arial;
+}
 /*# sourceMappingURL=main.css.map */
