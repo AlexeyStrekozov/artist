@@ -320,4 +320,65 @@ input {
 .awards-block__text {
   margin-top: 24px;
 }
+
+.cooperation {
+  padding-bottom: 11px;
+}
+
+.cooperation-headline {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+.cooperation-block {
+  margin-top: 11px;
+  margin-bottom: 5px;
+  display: table;
+  width: 100%;
+}
+
+.cooperation-block__last {
+  width: 548px;
+  margin: 29px auto;
+}
+
+.cooperation-block__img {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.cooperation-block__img__1 {
+  margin-left: 4px;
+}
+
+.cooperation-block__img__2 {
+  margin-left: 36px;
+}
+
+.cooperation-block__img__3 {
+  margin-left: 24px;
+}
+
+.cooperation-block__img__4 {
+  margin-left: 35px;
+}
+
+.cooperation-block__img__5 {
+  padding-left: 66px;
+}
+
+.cooperation-block__img__6 {
+  padding-left: 55px;
+}
+
+.cooperation-block__img__7 {
+  padding-left: 36px;
+}
+
+.cooperation-block__img__8 {
+  padding-left: 45px;
+}
 /*# sourceMappingURL=main.css.map */
