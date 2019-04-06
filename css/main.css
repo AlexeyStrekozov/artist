@@ -141,18 +141,23 @@ input {
 }
 
 .main-form__input {
-  min-width: 208px;
   border: 1px solid #cbcbcb;
   border-radius: 10px;
-  padding: 13px;
+  padding: 12px 35px;
 }
 
 .main-form__name {
   margin-top: 44px;
+  background-image: url(../img/form-icon-name.png);
+  background-repeat: no-repeat;
+  background-position: 11px 6px;
 }
 
 .main-form__tel {
   margin-top: 26px;
+  background-image: url(../img/form-icon-phone.png);
+  background-repeat: no-repeat;
+  background-position: 9px 6px;
 }
 
 .main-form__button {
@@ -413,7 +418,7 @@ input {
 
 .connection-form {
   max-width: 881px;
-  margin-top: 22px;
+  margin-top: 19px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -421,5 +426,40 @@ input {
 .connection-form__input {
   padding: 10px 32px;
   border-radius: 10px;
+  margin-left: 35px;
+  margin-right: 14px;
+}
+
+.connection-form__name {
+  background-image: url(../img/form-icon-name.png);
+  background-repeat: no-repeat;
+  background-position: 11px 6px;
+}
+
+.connection-form__tel {
+  background-image: url(../img/form-icon-phone.png);
+  background-repeat: no-repeat;
+  background-position: 9px 6px;
+}
+
+.connection-form__button {
+  padding: 10px 10px;
+  border-radius: 8px;
+  background-color: #e7b831;
+  border: 1px solid #f9dd0a;
+  text-transform: uppercase;
+  font-family: 'Cuprum', arial;
+  font-weight: bold;
+  font-size: 17px;
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25);
+  margin-left: 32px;
+}
+
+.connection-form__button:hover {
+  cursor: pointer;
+  background-color: #cd9e18;
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
 }
 /*# sourceMappingURL=main.css.map */
