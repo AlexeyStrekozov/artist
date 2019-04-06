@@ -462,4 +462,38 @@ input {
   -webkit-transform: scale(1.08);
           transform: scale(1.08);
 }
+
+.footer {
+  background-color: #000000;
+  padding-bottom: 33px;
+}
+
+.footer-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-contacts {
+  padding-top: 38px;
+  line-height: 20px;
+  color: #ffffff;
+  font-family: 'Cuprum', arial;
+}
+
+.footer-contacts a {
+  color: #ffffff;
+}
+
+.footer-text {
+  font-family: 'Cuprum', arial;
+  color: #ffffff;
+  line-height: 10px;
+  font-size: 14px;
+  margin-top: auto;
+  margin-bottom: 5px;
+}
 /*# sourceMappingURL=main.css.map */
