@@ -381,4 +381,45 @@ input {
 .cooperation-block__img__8 {
   padding-left: 45px;
 }
+
+.connection {
+  background-image: url(../img/bk2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 660px;
+}
+
+.connection-headline {
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 85px;
+  font-size: 21px;
+}
+
+.connection-text {
+  color: #ffffff;
+  max-width: 436px;
+  text-align: center;
+  margin: 39px auto;
+  font-size: 18px;
+}
+
+.connection-contact {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 291px;
+}
+
+.connection-form {
+  max-width: 881px;
+  margin-top: 22px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.connection-form__input {
+  padding: 10px 32px;
+  border-radius: 10px;
+}
 /*# sourceMappingURL=main.css.map */
