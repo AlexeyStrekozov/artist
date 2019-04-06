@@ -682,7 +682,7 @@ input {
   }
   .awards-block__text {
     margin-top: 9px;
-    font-size: 11px;
+    font-size: 13px;
   }
   .awards-block__text li {
     list-style-type: none;
@@ -751,9 +751,15 @@ input {
     font-size: 18px;
     margin-top: 16px;
   }
+  .awards-block {
+    width: 300px;
+  }
   .awards-block__img {
-    width: 120px;
+    width: 140px;
     margin: 0 auto;
+  }
+  .awards-block__img img {
+    width: 140px;
   }
   .cooperation-headline {
     font-size: 18px;
