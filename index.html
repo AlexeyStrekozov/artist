@@ -45,10 +45,10 @@
                         от графических макетов
                         <br>до презентационных фильмов
                     </div>
-                    <form action="#">
-                        <input class="main-form__name main-form__input" type="text">
-                        <input class="main-form__tel main-form__input" type="tel">
-                        <input class="main-form__button" type="button" value="Заказать">
+                    <form action="#" class="js-ajax" id="form">
+                        <input  class="main-form__name main-form__input" name="fio"  value="" type="text"  maxlength="20" required>
+                        <input  class="main-form__tel main-form__input phone" name="phone"  type="tel" value="" required>
+                        <input class="main-form__button" type="submit" value="Заказать">
                     </form>
                 </div>
             </div>
@@ -321,10 +321,10 @@
                 Презентационные фильмы
         </div>
         <div class="connection-contact">Оставьте свои данные и мы перезвоним Вам</div>
-        <form class="connection-form" action="#">
-                <input class="connection-form__name connection-form__input" type="text">
-                <input class="connection-form__tel connection-form__input" type="tel">
-                <input class="connection-form__button" type="button" value="Свяжитьесь со мной ">
+        <form class="connection-form js-ajax2" action="#"  id="form2">
+                <input class="connection-form__name connection-form__input" type="text" name="fio"  value=""  maxlength="20" required>
+                <input class="connection-form__tel connection-form__input phone" type="tel" name="phone" value="" required>
+                <input class="connection-form__button" type="submit" value="Свяжитьесь со мной ">
             </form>
     </div>
 </section>
@@ -342,7 +342,12 @@
          </div>
     </div>
 </footer>
+<script src="script/jquery-3.3.1.min.js"></script>
+<script src="script/jquery.maskedinput.min.js"></script>
 <script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
 <script src="script/map.js"></script>
+<script src="script/main.js"></script>
+<script src="script/form.js"></script>
+<script src="script/form2.js"></script>
 </body>
 </html>
